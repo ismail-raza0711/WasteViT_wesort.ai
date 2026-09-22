@@ -1,0 +1,13 @@
+# Ignore local Kaggle credentials/tokens if they are in this folder
+.kaggle/
+kaggle.json
+kernel-metadata.json
+
+# Ignore datasets (don't push Gigabytes of TACO images to GitHub!)
+*.zip
+/kaggle/
+
+# Ignore Python virtual environments
+.venv/
+env/
+__pycache__/
